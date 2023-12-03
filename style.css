@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    padding: 30px;
+}
+button
+{
+    -webkit-appearance: none;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button.active
+{
+    background-color: #c21c31;
+}
+.tab-content
+{
+    border: 1px solid;
+    display: none;
+}
+.mTop10
+{
+    margin-top: 10px;
+}
